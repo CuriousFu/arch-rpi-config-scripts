@@ -15,7 +15,7 @@ pacman -Syu --noconfirm
 echo "  done."
 
 echo "Installing utilities packages..."
-pacman -S --noconfirm htop screen wget
+pacman -S --noconfirm htop screen wget git
 echo "  done."
 
 echo "Changing time zone to Samara (UTC+4)..."
