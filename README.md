@@ -1,3 +1,3 @@
-# arch-rpi-install-scripts
-Arch Linux ARM installation scripts for Raspberry Pi
+# arch-rpi-config-scripts
+Arch Linux ARM configuration bash scripts for Raspberry Pi
 
