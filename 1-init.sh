@@ -15,13 +15,13 @@ pacman -Syu --noconfirm
 echo "  done."
 
 echo "Installing utilities packages..."
-pacman -S --noconfirm htop screen wget git
+pacman -S --noconfirm htop screen git
 echo "  done."
 
 echo "Changing time zone to Samara (UTC+4)..."
 mkdir timezones
 cd timezones/
-wget http://www.iana.org/time-zones/repository/releases/tzdata2011n.tar.gz
+curl -O http://www.iana.org/time-zones/repository/releases/tzdata2011n.tar.gz
 tar xzf tzdata2011n.tar.gz
 zic europe
 ln -sf --suffix=.backup /usr/share/zoneinfo/Europe/Samara /etc/localtime
