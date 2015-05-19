@@ -1,10 +1,14 @@
 echo "Installing audio drivers..."
-sudo pacman -S alsa-utils alsa-firmware alsa-lib alsa-plugins
+sudo pacman -S --noconfirm alsa-utils alsa-firmware alsa-lib alsa-plugins
 amixer cset numid=3 0
 echo "  done"
 
 echo "Installing video drivers..."
 sudo pacman -S --noconfirm mesa xf86-video-fbdev xf86-video-vesa
+echo "  done"
+
+echo "Installing WiFi drivers..."
+sudo pacman -Syu --noconfirm wpa_supplicant
 echo "  done"
 
 #Random generator
