@@ -14,10 +14,6 @@ pacman-key --init
 pacman -Syu --noconfirm
 echo "  done."
 
-echo "Installing utilities packages..."
-pacman -S --noconfirm htop screen git
-echo "  done."
-
 echo "Changing time zone to Samara (UTC+4)..."
 mkdir timezones
 cd timezones/
