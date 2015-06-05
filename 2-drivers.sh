@@ -8,7 +8,7 @@ sudo pacman -S --noconfirm mesa xf86-video-fbdev xf86-video-vesa
 echo "  done"
 
 echo "Installing WiFi drivers..."
-sudo pacman -Syu --noconfirm wpa_supplicant
+sudo pacman -S --noconfirm wpa_supplicant
 echo "  done"
 
 #Random generator
