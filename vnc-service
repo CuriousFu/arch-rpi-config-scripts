@@ -1,5 +1,4 @@
 # The vncserver service unit file
-# The vncserver service unit file
 #
 # 1. Copy this file to /etc/systemd/system/vncserver@:<display>.service
 # 2. Edit User=
