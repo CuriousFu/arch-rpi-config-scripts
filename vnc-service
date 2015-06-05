@@ -20,7 +20,7 @@ After=syslog.target network.target
 
 [Service]
 Type=simple
-User=
+User=pi
 PAMName=login
 
 # Clean any existing files in /tmp/.X11-unix environment
